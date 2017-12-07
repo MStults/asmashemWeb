@@ -1,0 +1,32 @@
+<badges>
+  <badge>
+    <name>chain_lightning</name>
+    <title>Lightningium Chain</title>
+    <fb-descr>This achievement is earned by those who know how to use Lightningium to its fullest potential. Creating a single Lightningium atom is hard enough but in order to get this achievement you have to be clever enough to creating multiples. </fb-descr>
+    <web-descr>This achievement is earned by those who know how to use Lightningium to its fullest potential. Creating a single Lightningium atom is hard enough but in order to get this achievement you have to be clever enough to creating multiples.</web-descr>
+  </badge>
+  <badge>
+    <name>anti</name>
+    <title>My Title</title>
+    <fb-descr>Facebook description</fb-descr>
+    <web-descr>Web description</web-descr>
+  </badge>
+  <badge>
+    <name>mine_good</name>
+    <title>Way to explode things</title>
+    <fb-descr>Mr Mine !!</fb-descr>
+    <web-descr>Mr Mine !!</web-descr>
+  </badge>
+  <badge>
+    <name>mine</name>
+    <title>Not as good as the others</title>
+    <fb-descr>Not as good as the others</fb-descr>
+    <web-descr>Not as good as the others</web-descr>
+  </badge>
+  <badge>
+    <name>missle_good</name>
+    <title>Good job missling </title>
+    <fb-descr>Good job missling </fb-descr>
+    <web-descr>Good job missling </web-descr>
+  </badge>
+</badges>

@@ -1,0 +1,128 @@
+/* ==========================================================================
+   ALWAYS DO 
+   ========================================================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix:after{
+    content:"";
+    display:table;
+    clear:both;
+}
+
+html
+body{
+    background-color: #e6dcff;
+    color: #e6d5ff;
+    /* font-family: 'Montserrat', sans-serif; 
+    font-family: 'chintzy'; 
+    font-family: 'Montserrat', sans-serif;
+    */   
+    font-family: 'Varela Round', sans-serif;
+    
+    font-size: 25px;
+    text-rendering: optimizeLegibility;   
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: gold;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Reusable Components
+   ========================================================================== */
+.row{
+    max-width: 1140px;   
+    margin: 0 auto;
+}
+
+.col{
+    margin: 0;
+}
+
+
+h2{
+   
+    text-align: center;    
+    background-image: url(img/bg-content.png);  
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 40px 0 20px 0;    
+    background-attachment: fixed;
+    border-top: 1px solid #000;
+    border-right: 1px solid #000; 
+    border-left: 1px solid #000; 
+  
+}
+
+h2>img{
+    height: auto;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 300;
+    text-transform: uppercase;  
+    word-spacing: 2px;  
+}
+
+h3 {
+    font-size: 120%;  
+    background-image: radial-gradient(rgba(255, 255, 255, 0.85),  rgba(255, 255, 255, 0.7));
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 0.5em 0 0.5em 0.5em;
+    text-shadow: 0 0 8px #fff;
+}
+
+.the-box{
+    color: #1a1a1a;
+    background-image: url(img/bg-content.png);
+    padding: 0 1.2em 1.2em 1.2em;  
+    line-height: 145%;
+    background-attachment: fixed;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;  
+    
+}
+
+.the-box-text{
+    background-image: radial-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.7));
+    padding: 0 1.5% 2.5% 10%;
+    border-radius: 10px;   
+    line-height: 145%;
+    text-shadow: 0 0 2px #fff;
+}
+
+.the-box-text p + p{
+    margin-top: 0.9em;
+}
+
+.the-box h3 +.the-box-text{    
+    border-top-left-radius:0;
+    border-top-right-radius: 0;
+}
+
+.rnd-top{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.rnd-bottom{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom: 1px solid #000;
+}
+
+section{
+    padding: 60px 0;
+    border-top: 1px solid #adb9bd; 
+}

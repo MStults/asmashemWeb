@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'chintzy';
+	src: url('./chintzy.eot');
+	src: local('chintzy'), url('./chintzy.woff') format('woff'), url('./chintzy.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_501">Text with this font applied</p> */
+.fontsforweb_fontid_501 {
+	font-family: 'chintzy' !important;
+}
+
+/* Font downloaded from FontsForWeb.com */

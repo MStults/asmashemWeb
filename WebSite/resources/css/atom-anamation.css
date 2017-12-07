@@ -1,0 +1,209 @@
+/*-----------------------------------------*/
+/* SPRITE ANIMATIONS  */
+/*-----------------------------------------*/
+.atom-1 {
+    width: 64px;
+    height: 64px;
+    background: url('img/spr_atom_1_strip60-min.png') left center;
+    animation: play-atom 2s steps(60) infinite;
+    background-size: cover;
+}
+
+@keyframes play-atom {
+   100% { background-position: -3840px; }
+}
+
+.lightning{
+    width: 1000px;
+    height: 355px;
+    background: url('img/spr_lightning_lg_strip15-min.png') left center;
+    background-repeat: no-repeat; 
+    animation: play-lightning 1s steps(15) infinite;   
+}
+
+@keyframes play-lightning {
+   100% { background-position: -15000px; }
+}
+
+@keyframes play-128 {
+   100% { background-position: -7680px;}
+}
+
+@keyframes play-atom-mike {
+   100% { background-position: -7440px; }
+}
+
+.atom-mike {
+    margin: 0 auto;
+    width: 120px;
+    height: 120px;
+    background: url('img/spr_mike_strip60-min.png') left center;
+    animation: play-atom-mike 2s steps(60) infinite;
+    background-size: cover;
+}
+
+.atom-dop {
+    margin: 0 auto;
+    width: 128px;
+    height: 128px;
+    background: url('img/spr_dop_strip60-min.png') left center;
+    animation: play-128 2s steps(60) infinite;
+    background-size: cover;
+}
+
+.atom-jason{
+    margin: 0 auto;
+    width: 128px;
+    height: 128px;
+    background: url('img/spr_jason_strip60-min.png') left center;
+    animation: play-128 2s steps(60) infinite;
+    background-size: cover;
+}
+
+.atom-shotgun{
+    margin: 0 auto;
+    width: 128px;
+    height: 128px;
+    background: url('img/spr_shotgun_strip60-min.png') left center;
+    animation: play-128 2s steps(60) infinite;
+    background-size: cover;
+}
+
+.atom-russ{
+    margin: 0 auto;
+    width: 128px;
+    height: 128px;
+    background: url('img/spr_russ_strip60-min.png') left center;
+    animation: play-128 2s steps(60) infinite;
+    background-size: cover;
+}
+
+.atom-missile{
+    margin: 0 auto;
+    width: 128px;
+    height: 128px;
+    background: url('img/spr_missile_strip60-min.png') left center;
+    animation: play-128 2s steps(60) infinite;
+    background-size: cover;
+}
+
+.atom-clay{
+    margin: 0 auto;
+    width: 128px;
+    height: 128px;
+    background: url('img/spr_clay_strip60-min.png') left center;
+    animation: play-128 2s steps(60) infinite;
+    background-size: cover;
+}
+
+.atom-laser{
+    margin: 0 auto;
+    width: 128px;
+    height: 128px;
+    background: url('img/spr_laser_strip60-min.png') left center;
+    animation: play-128 2s steps(60) infinite;
+    background-size: cover;
+}
+
+.atom-joe{
+    margin: 0 auto;
+    width: 128px;
+    height: 128px;
+    background: url('img/spr_joe_strip60-min.png') left center;
+    animation: play-128 2s steps(60) infinite;
+    background-size: cover;
+}
+
+.atom-anti{
+    margin: 0 auto;
+    width: 128px;
+    height: 128px;
+    background: url('img/spr_anti_strip60-min.png') left center;
+    animation: play-128 2s steps(60) infinite;
+    background-size: cover;
+}
+
+.atom-dan{
+    margin: 0 auto;
+    width: 128px;
+    height: 128px;
+    background: url('img/spr_dan_strip60-min.png') left center;
+    animation: play-128 2s steps(60) infinite;
+    background-size: cover;
+}
+
+.atom-mine{
+    margin: 0 auto;
+    width: 128px;
+    height: 128px;
+    background: url('img/spr_mine_strip60-min.png') left center;
+    animation: play-128 2s steps(60) infinite;
+    background-size: cover;
+}
+
+.atom-lightning{
+    margin: 0 auto;
+    width: 128px;
+    height: 128px;
+    background: url('img/spr_lightning_strip60-min.png') left center;
+    animation: play-128 2s steps(60) infinite;
+    background-size: cover;
+}
+
+.atom-iron{
+    margin: 0 auto;
+    width: 128px;
+    height: 128px;
+    background: url('img/spr_iron_strip60-min.png') left center;
+    animation: play-128 2s steps(60) infinite;
+    background-size: cover;
+}
+
+/*-----------------------------------------*/
+/* Energy Level  */
+/*-----------------------------------------*/
+
+@keyframes play-96 {
+   100% { background-position: -5760px;}
+}
+
+.el-1{
+    margin: 0 auto;
+    width: 96px;
+    height: 96px;
+    background: url('img/el_1-min.png') left center;
+    background-size: cover;
+    border-radius: 50%;  
+}
+
+.el-2{
+    margin: 0 auto;
+    width: 96px;
+    height: 96px;
+    background: url('img/el_2_strip60-min.png') left center;
+    animation: play-96 2s steps(60) infinite;
+    background-size: cover;
+    border-radius: 50%;
+    
+}
+
+.el-3{
+    margin: 0 auto;
+    width: 96px;
+    height: 96px;
+    background: url('img/el_3_strip60-min.png') left center;
+    animation: play-96 2s steps(60) infinite;
+    background-size: cover;
+    border-radius: 50%;
+    
+}
+
+.el-4{
+    margin: 0 auto;
+    width: 96px;
+    height: 96px;
+    background: url('img/el_4_strip60-min.png') left center;
+    animation: play-96 2s steps(60) infinite;
+    background-size: cover;
+    border-radius: 50%;
+}

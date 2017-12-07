@@ -1,0 +1,117 @@
+/* Big tablet to 1200 */
+@media only screen and (max-width: 1200px){
+    
+    html
+    body{ font-size: 22px; } 
+    .hero-text-box{ padding: 0 2%; }    
+    .row{  width: 90%;  }
+    h2 img{ height: 70%; height:auto;}
+    
+    .main-nav{  display: inline; }   
+    #mobile-nav { display: none; }
+}
+
+/* SMALL TABLET TO BIG TABLET: from 768px to 1023px */
+@media only screen and (max-width: 1023px){
+    
+    html body{ font-size: 20px; }  
+    
+    h1>img{ height: 2.1em; width: auto; }
+    .lightning{ transform: translate(-50%, -50%) scale(0.9); }
+    
+    h1>img:first-child{  }
+    h1>img:last-child{  }
+    
+    section{  padding: 20px 0; }  
+        
+    .section-atoms>div>h2>img{ width: 10em; }
+    
+    h3{ font-size: 110%; }  
+    
+    /* energy levels*/
+    .lvl>div{ transform: scale(0.85) }    
+    .lvl-box{  margin-top: 20px; }
+    .lvl{ margin-bottom: 20px; }
+
+     /* nav */
+    .main-nav{  display: none; }   
+    
+    nav{  text-align: center;  }
+
+    .mobile-nav-icon{ display: inline-block;  }
+
+    .main-nav:before{
+        margin-top: 30px;
+        content:" ";
+        display:table;
+        clear:both;
+    }
+    .main-nav{ padding: 10px; }    
+    .main-nav li{  display: block; } 
+
+    .main-nav li a:link,
+    .main-nav li a:visited{
+        display: block;
+        border-width: 2px;
+        padding: 5px 0;
+        float: left;
+    }
+    
+    /* atoms */
+    .atom{ margin-top: 0; }    
+    .atom>div{ 
+        height: 100px;
+        width: 100px;       
+    }
+    .atom>div>div{
+        transform: scale(0.7) translate(-18px, -24px); 
+    }
+    .sep{ margin: 0 auto; height: 12px}    
+    .lvl>p{
+        padding-top: 20px;
+    }
+    
+}
+
+/* SMALL PHONES tp SMALL TABLETS: 481 tp 767 */
+@media only screen and (max-width: 767px){
+    .lightning{ transform: translate(-50%, -50%) scale(0.45); }
+    .hero-text-box{
+        width: 100%;
+    }
+    h2>img{ height: 50px; width: auto; }
+    h1>img{ height: 55px; }
+    html body{ font-size: 16px; } 
+    .full-flex>div{ flex-direction: column; }    
+    .div-iphone{  order: 2; }    
+    .app-btns{  order: 1; }
+    .div-iphone>a>img{
+        width: 250px;
+        height: auto;
+    }
+    
+    .atom>div>div{
+        transform: scale(0.5) translate(-18px, -24px); 
+    }
+    
+    .section-about>div>h2>img{ height: 40px; width: auto; }
+    
+}
+
+/* SMALL PHONES 0 to 480 */
+@media only screen and (max-width: 480px){
+    .atom{padding: 0; margin: 0; }
+    .col{ padding: 0; margin: 0;}
+    #how-to-play h2>img{ height: auto; width: 290px; }
+    .the-box{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .signature
+    {
+        padding: 20px 0 20px 10px;  
+    }
+    
+     .section-about>div>h2>img{ height: 30px; width: auto; }
+}

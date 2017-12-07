@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Game - Free and fun for all ages - Atom Smashem Matching Game</title>    
+        <meta name="description" content="If you are ready for more challenges and more fun? If so try playing Atom Smashem. It is an insanely fun puzzle game!">
+
+        
+        <link rel="stylesheet" href="vendors/fonts/chintzy/font.css">
+        <link rel=stylesheet type="text/css" href="vendors/css/ionicons.min.css">
+        <!--<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>-->
+        <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+        
+        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">  
+        <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/base.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/styles.css?v=2">
+        <link rel="stylesheet" type="text/css" href="resources/css/footer.css?v=1">
+        <link rel="stylesheet" type="text/css" href="resources/css/atom-anamation.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/screens.css">
+        
+        
+        <!-- Favion http://realfavicongenerator.net -->
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" href="fav/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="fav/favicon-16x16.png" sizes="16x16">
+        <link rel="manifest" href="fav/manifest.json">
+        <link rel="mask-icon" href="fav/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="apple-mobile-web-app-title" content="Atom Smashem">
+        <meta name="application-name" content="Atom Smashem">
+        <meta name="theme-color" content="#8e6cf5">        
+        <!-- <meta name="robots" content="nofollow"> -->
+        <!-- Favion -->
+        
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-86399889-1', 'auto');
+          ga('send', 'pageview');
+
+        </script>
+        
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <script>
+          (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-8744843829641364",
+            enable_page_level_ads: true
+          });
+        </script>
+        
+    </head>
+    
+    <body>
+        <!--[if lt IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <!--[if IE]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <audio id="snd_spark" preload="auto">
+            <source src="asm/snd_spark0.mp3" type="audio/mpeg">
+            <source src="asm/snd_spark0.ogg" type="audio/ogg">      
+        </audio>
+        
+        <header id="main">                  
+            <nav>            
+                <div class="row">  
+                    <a class="logo-black" href="#main"><img src="resources/img/atom-gray.png" alt="Atom Smashem Toolbar Icon" ></a>
+                    <div class="logo atom-1"></div> 
+                    <a id='mobile-btn' class="mobile-nav-icon js--mobile-nav"><span class="ion-navicon-round"></span></a>     
+                    <!--<a class="mobile-nav-icon mobile-play js--nav-icon"><span class="ion-ios-play"></span></a> --> 
+                    <ul d='non-mobile-nav' class="main-nav js--main-nav">
+                        <li><a class="play-btn" href="game.html" target="_blank">Play <span class="ion-ios-play"></span></a></li>  
+                        <li><a href="#about">About </a></li>
+                        <li><a href="#atoms">Atoms </a></li>
+                        <li><a href="#how-to-play">How to play</a></li>
+                        <li><a href="#full-version">Devices</a></li>
+                        <!--<li><a href="#full-version">Report Bug</a></li>-->
+                    </ul>    
+                    <ul id='mobile-nav' class="main-nav js--mobile-main-nav">
+                        <li><a class="play-btn" href="game.html" target="_blank">Play <span class="ion-ios-play"></span></a></li>     
+                        <li><a href="#about">About </a></li>
+                        <li><a href="#atoms">Atoms </a></li>
+                        <li><a href="#how-to-play">How to play</a></li>
+                        <li><a href="#full-version">Devices</a></li>
+                        <!--<li><a href="#full-version">Report Bug</a></li>-->
+                    </ul>    
+                </div>
+            </nav>
+
+            <div class="lightning"></div>
+            <div class="hero-text-box">
+                <h1 class="animated rubberBand js--hero">       
+                    <img src="resources/img/atom-min.png" alt="Atom">                  
+                    <img src="resources/img/smashem-min.png" alt="Smashem"> 
+                </h1> 
+            </div>  
+
+        </header>
+                    
+        
+           
+        <section class="section-about js--about" id="about">   
+             <div class="row">
+                 <h2><img src="resources/img/what-min.png" alt="What is Atom Smashem?"></h2>
+            </div>            
+            <div class="row "> 
+                <div class="the-box rnd-bottom ">
+                    <h3>What is Atom Smashem?</h3>
+                    <div class="the-box-text">
+                        <p>
+                            Atom Smashem is a fun new puzzle game that is free to play. It is a matching game that removes the limits of just swapping pieces. Atom Smashem allows you to move a piece where ever you want… however if the move does not result in a match then a penalty is incurred. The penalty starts off small but can grow if moves continue to result in a mismatch. The game also boasts new features such as “clamps” and “pipes” that allow user even more freedom. On top of that, each atom has its own unique ability that can be unlocked by triggering its isotope. There are <b>328</b> levels that take place in three different reactors. 
+                        </p> 
+                    </div>
+                </div>
+            </div>     
+          
+        </section>
+        
+        <section class="section-atoms js--atoms" id="atoms">
+            
+            
+             <div class="row">
+                 <h2><img src="resources/img/atoms.png" alt="Atoms"></h2>
+            </div>            
+            
+            
+            <!-- RIGHT MIKE -->
+            <div class="the-box row">
+
+                <div class="col span-2-of-3">                    
+                    <h3>atom <i>Mikeium</i> 300ev</h3>                    
+                    <div class="the-box-text">
+                       Produces a very high amount of energy. Only the atom LIGHTNINGIUM can match this atoms energy output. Plus its isotope is very useful when advancing other atoms energy levels. 
+                    </div>
+                </div>
+                <div class="atom col span-1-of-3">
+                    <div>
+                        <div class="atom-mike"></div>   
+                    </div>
+                </div>                 
+            </div>
+
+            <!-- LEFT DOPPLELGANGER-->
+            <div class="the-box row">
+                 <div class="atom col span-1-of-3">
+                    <div>
+                        <div class="atom-dop"></div>  
+                    </div>
+                </div> 
+                <div class="col span-2-of-3">
+                    <h3>isotope <i>Doppelgangorgen</i> 250eV</h3>
+                    <div class="the-box-text">
+                        Isotope of MIKEIUM. This atom has the ability to clone all adjacent atoms including itself into the atom that triggered it. Often this results in the creation of LIGHTNINGIUM. 
+                    </div> 
+                </div>                               
+            </div>
+
+            <!-- SEPERATOR -->
+            <div class="the-box row">
+                <div class="sep"></div>
+            </div>
+
+            <!-- RIGHT JASON-->
+            <div class="the-box row">
+                <div class="col span-2-of-3">
+                    <h3>atom <i>Jasonium</i> 150ev</h3>
+                    <div class="the-box-text">
+                       This atom and its isotope produce the least amount of energy of all the atoms. But do not let it fool you its isotope is very broad, quick, and powerful.                      
+                    </div> 
+                </div>
+                <div class="atom col span-1-of-3">
+                     <div>
+                        <div class="atom-jason"></div>  
+                    </div>                     
+                </div>                 
+            </div>              
+
+             <!-- LEFT SHOTGUN-->
+            <div class="the-box row">
+                 <div class="atom col span-1-of-3">
+                      <div>
+                        <div class="atom-shotgun"></div>  
+                    </div>                           
+                </div> 
+                <div class="col span-2-of-3">
+                    <h3>isotope <i>Shotgunium</i> 150ev</h3>
+                    <div class="the-box-text">
+                        Isotope of JASONIUM. This atom unleashes its nucleus in the direction of the atom that triggered it. It produces a devastating effect that can easily destroy several atoms releasing a lot of energy.
+                    </div> 
+                </div>
+
+            </div>
+
+            <!-- SEPERATOR -->
+            <div class="the-box row">
+                <div class="sep"></div>
+            </div>
+
+            <!-- RIGHT RUSS-->
+            <div class="the-box row">
+                <div class="col span-2-of-3">
+                    <h3>atom <i>Russium</i> 175ev</h3>
+                    <div class="the-box-text">
+                        This atom yields a small amount of energy but more than JASONIUM. It has an isotope that is sure to strike.
+                    </div> 
+                </div>
+                <div class="atom col span-1-of-3">
+                      <div>
+                        <div class="atom-russ"></div>  
+                    </div>                           
+                </div>                 
+            </div>  
+
+            <!-- LEFT MISSILE-->
+            <div class="the-box row">
+                 <div class="atom col span-1-of-3">
+                      <div>
+                        <div class="atom-missile"></div>  
+                    </div>                           
+                </div> 
+                <div class="col span-2-of-3">
+                    <h3>isotope <i>Missilenium</i> 200ev</h3>
+                    <div class="the-box-text">
+                        Isotope of RUSSIUM. This atom has the unique ability to target all atoms of a specific type. Just trigger it with the type of atom you want to destroyed and MISSILENIUM will do the rest.
+                    </div> 
+                </div>
+
+            </div>
+
+            <!-- SEPERATOR -->
+            <div class="the-box row">
+                <div class="sep"></div>
+            </div>
+
+            <!-- RIGHT CLAYTON-->
+            <div class="the-box row">
+                <div class="col span-2-of-3">
+                    <h3>atom <i>Claytonium</i> 225ev</h3>
+                    <div class="the-box-text">
+                        Produces an average amount of energy and has an isotope that is very showy and fun to watch.  
+                    </div> 
+                </div>
+                <div class="atom col span-1-of-3">
+                     <div>
+                        <div class="atom-clay"></div>  
+                    </div>                            
+                </div>                 
+            </div>  
+
+            <!-- LEFT LASER-->
+            <div class="the-box row">
+                 <div class="atom col span-1-of-3">
+                     <div>
+                        <div class="atom-laser"></div>  
+                    </div>                            
+                </div> 
+                <div class="col span-2-of-3">
+                    <h3>isotope <i>Lasergen</i>  250ev</h3>
+                    <div class="the-box-text">
+                        Isotope of CLAYTONIUM. It shoots a narrow beam of high energy waves along its horizontal or vertical axes depending on the direction of the triggering atom. This beam will disintegrate anything in its way. However the triggering atom will remain unharmed.
+                    </div> 
+                </div>
+
+            </div>
+
+            <!-- SEPERATOR -->
+            <div class="the-box row">
+                <div class="sep"></div>
+            </div>
+
+            <!-- RIGHT JOE-->
+            <div class="the-box row">
+                <div class="col span-2-of-3">
+                    <h3>Atom <i>joedrogen</i> 275ev</h3>
+                    <div class="the-box-text">
+                       Odd looking atom that produces a high amount of energy. Its isotope is both devastating and gross.                    
+                    </div> 
+                </div>
+                <div class="atom col span-1-of-3">
+                      <div>
+                        <div class="atom-joe"></div>  
+                    </div>                          
+                </div>                 
+            </div>  
+
+            <!-- LEFT ANTIMATTER-->
+            <div class="the-box row">
+                 <div class="atom col span-1-of-3">
+                      <div>
+                        <div class="atom-anti"></div>  
+                    </div>                           
+                </div> 
+                <div class="col span-2-of-3">
+                    <h3>isotope <i>Antimattergen</i> 225ev </h3>
+                    <div class="the-box-text">
+                        This is an isotope of JOEDROGEN but it acts more like antimatter. When this atom is triggered it creeps along a path destroying any atom that it comes in contacted with. The higher its energy level the further it creeps.
+                    </div> 
+                </div>
+
+            </div>
+            
+            <!-- SEPERATOR -->
+            <div class="the-box row">
+                <div class="sep"></div>
+            </div>
+            
+            <!-- RIGHT DAN THE MAN-->
+            <div class="the-box row">
+                <div class="col span-2-of-3">
+                    <h3>Atom <i>danthemanium</i> 275ev</h3>
+                    <div class="the-box-text">
+                        The two blue electrons combine together to produce a whopping 275ev. This atom can be a real game changer. It can go the distance and produce a win when things seem to be at their worst.  
+                    </div> 
+                </div>
+                <div class="atom col span-1-of-3">
+                      <div>
+                        <div class="atom-dan"></div>  
+                    </div>                          
+                </div>                 
+            </div>  
+
+            <!-- LEFT MINESIUM-->
+            <div class="the-box row">
+                 <div class="atom col span-1-of-3">
+                      <div>
+                        <div class="atom-mine"></div>  
+                    </div>                           
+                </div> 
+                <div class="col span-2-of-3">
+                    <h3>isotope <i>minesium</i> 175ev </h3>
+                    <div class="the-box-text">
+                        Isotope of DANTHEMANIUM. Triggering this atom results in a small explosion that instantly causes the triggering atom to phase change into LIGHTNINGIUM. This can be incredibly useful when creating isotope of a specific type. 
+                    </div> 
+                </div>
+
+            </div>
+
+            <!-- SEPERATOR -->
+            <div class="the-box row">
+                <div class="sep"></div>
+            </div>
+
+            <!-- RIGHT LIGHTNING-->
+            <div class="the-box row">
+                <div class="col span-2-of-3">
+                    <h3>atom <i>Lightningium</i> 300ev</h3>
+                    <div class="the-box-text">
+                        All atoms have the potential of becoming LIGHTNINGIUM. LIGHTNINGIUM comes into existence when an atom reaches the forth energy level. This is the only atom that can be triggered just by <b>clicking on it</b>. And when this atom is activated it sends out electrical energy in all directions resulting in the creation of an isotope.
+                    </div> 
+                </div>
+                <div class="atom col span-1-of-3">
+                      <div>
+                        <div class="atom-lightning"></div>  
+                    </div>                          
+                </div>                 
+            </div>  
+            
+              <!-- SEPERATOR -->
+            <div class="the-box row">
+                <div class="sep"></div>
+            </div>
+            
+             <!-- RIGHT IRON-->
+            <div class="the-box rnd-bottom row">
+                <div class="col span-2-of-3">
+                    <h3>atom <i>IRON</i> 200ev</h3>
+                    <div class="the-box-text">
+                        Iron is a very stable atom that acts like a barrier. It does not react with its self like the other atoms do but it can be destroyed.
+                    </div> 
+                </div>
+                <div class="atom col span-1-of-3">
+                      <div>
+                        <div class="atom-iron"></div>  
+                    </div>                          
+                </div>                 
+            </div>  
+            
+        </section>
+        
+        <section class="section-how-to js--how-to" id="how-to-play">
+            <div class="row">   
+                <h2><img src="resources/img/how-to-play.png" alt="How to play"></h2>
+            </div>
+            
+            <div class="row"> 
+                <div class="the-box">
+                    <h3>The Basics</h3>
+                    <div class="the-box-text">
+                        <p>
+                        The goal of Atom Smashem is to start a chain-reaction by raising the total energy in a reactor to its critical level. To do this arrange atoms in sets of three or more. An atom can be move to any adjacent space occupied by another atom. The other atom will then be <i>triggered</i>.
+                        </p>   
+                    </div>
+                  
+                </div>
+            </div>   
+            
+    
+            <div class="row"> 
+                <div class="the-box">
+                    <h3>Moving Atoms</h3>
+                    <div class="the-box-text">
+                    <p>
+                        You can move an atom by either by clicking on it and dragging it left, right, up or down. Or you can simply swipe it in the direction you want it to move. Atoms cannot move diagonally.
+                    </p>   
+                    </div>
+                </div>
+            </div>     
+
+            <div class="row"> 
+                <div class="the-box">
+                    <h3>Triggering an Atom</h3>
+                    <div class="the-box-text">
+                        <p>
+                            An atom is triggered by moving another atom on top of it.
+                        </p>
+                        <p>
+                            For basic atoms triggering it will cause its destruction and for isotopes it will activate their special ability.  
+                        </p>   
+
+                        <p>
+                            If the destruction of the atom results in a match the set will combine to form a new atom of the same type but with a higher energy level. If atoms involved in a match have electrons those electrons will be given up as energy adding to the total.
+                        </p>  
+                        <p>
+                            If the destruction of the atom does not result in a match then the trigger will cause the creation of negative energy subtracting from the total so be careful.
+                        </p>
+
+                    </div>
+                </div>
+            </div>   
+
+              <div class="row"> 
+                <div class="the-box">
+                    <h3>Energy Levels</h3>
+                    <div class="the-box-text">
+                        <p>
+                            To release energy from an atom it has to be put into an unstable state. The atom becomes more unstable as its energy level increases. The energy level increases every time it is used in a match.
+                        </p>
+                        <div class="lvl-box ">
+                            <div class="lvl clearfix">
+                                 <div class="el-1"></div>
+                                <p>
+                                    Level 1 &#45; the atom has no electrons, and all of its orbits are empty. In this state the atom will not yield much energy   
+                                </p>
+                            </div>
+
+                             <div class="lvl clearfix">
+                                 <div class="el-2"></div>
+                                <p>       
+                                    Level 2 &#45; the atom has all of its electrons and will yield the maximum amount of energy.
+                                </p>
+                            </div>
+
+                            <div class="lvl clearfix">
+                                 <div class="el-3"></div>
+                                <p>          
+                                    Level 3 &#45; The atom is close to breaking down into its plasma state.
+                                </p>
+                            </div>                                                        
+
+                            <div class="lvl">
+                                 <div class="el-4"></div>
+                                <p>       
+                                    Level 4 &#45; The excess energy causes the atom to undergo a phase change turning it into Lightingium atom.
+                                </p>
+                            </div>                         
+                        </div>                       
+                    </div>
+                </div>
+            </div>
+
+            <div class="row"> 
+                <div class="the-box">
+                    <h3>isotopes</h3>
+                    <div class="the-box-text">
+                        <p>
+                          Isotopes are created as a result of triggering Lightningium atoms. The type of isotope created is determined by the type of atom that was used to create the Lightningium atom for example if Mikeium, atoms were used to created a Lightningium the resulting isotope would be a Doppelgangorgen.                        
+                        
+                        </p>
+                    </div>
+                </div>
+            </div>   
+            
+             <div class="row"> 
+                <div class="the-box rnd-bottom">
+                    <h3>Play Smart </h3>
+                    <div class="the-box-text">
+                    Speed is not a factor so take your time and pick matches that will result in a higher energy levels.    
+                    </div>
+                </div>
+            </div>
+
+        </section>    
+
+        <section class="section-full-version" id="full-version">
+             <div class="row">
+                 <h2 class='js--full-version-h1'><img src="resources/img/devices-min.png" alt="Supported Devices"></h2>
+            </div>           
+            
+            <div class="the-box rnd-bottom row ">
+                <h3>Still in the Works!</h3>           
+                <div id='full-trigger' class="the-box-text">
+                    <p>
+                        Atom Smashem is available on the <b>Web</b> as an HTML5 game but it is still being developed so keep checking for updates. We are in the process of refining levels and fixing bugs. But once that is done, we will make Atom Smashem available on <b>IOS</b> and <b>Android</b> as well other devices.   
+                        So, keep checking back!
+                        </p>  
+                      
+                        <p>
+                        Thanks <span class = "signature">The Atom Smashem Team</span>
+                        </p>      
+                </div>
+                <div class="full-flex">
+                    
+                    <div>
+                       <div class="hide div-iphone"><a herf="#" ><img src="resources/img/iphone.png" alt="App store button"></a></div>    
+                        
+                        <div class="hide app-btns" >
+                            <a style="display:none;" herf="#" class="btn-app"><img src="resources/img/App_Store.svg" alt="App store button"></a>   
+                            <a class="btn-app" href='https://play.google.com/store/apps/details?id=com.supernomi.atomsmashem&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='resources/img/en-play-badge.png'/></a>
+                            <a style="display:none;" herf="#" class="btn-app"><img src="resources/img/English_Get_it_from_MS.png" alt="Play store button"></a>
+                        </div> 
+                     
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <footer>              
+            <div class="row">                
+                <ul class="footer-nav">
+                    <li><a href="index.html">Home</a></li>   
+                    <li><a href="privacy.html">Privacy Policy</a></li>   
+                    <li><a href="https://play.google.com/store/apps/details?id=com.supernomi.atomsmashem">Android</a></li>   
+                   </ul>
+           </div>
+            <!--
+           <div class="row">
+                <ul class="footer-nav">
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Dev Blog</a></li>
+
+                    <li><a href="#">iOS App</a></li>
+                    <li><a href="#">Android App</a></li>
+                    <li><a href="#">Windows App</a></li>
+                </ul>
+           </div>
+            <div class="row">               
+                <ul class="social-icons">
+                    <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+                    <li><a href="#"><i class="ion-social-youtube"></i></a></li>
+                </ul>
+            </div>
+            -->
+            <div class="row">
+                <p>
+                    Copyright &copy; 2016 by <span class="Atom-Smashem">Super Nomi </span>. All rights reserved.
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="vendors/js/jquery.waypoints.min.js"></script>
+        <script src="resources/js/main.js"></script>        
+    </body>     
+   
+</html>

@@ -1,0 +1,104 @@
+/* ==========================================================================
+   ALWAYS DO 
+   ========================================================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix:after{
+    content:"";
+    display:table;
+    clear:both;
+}
+
+html
+body{
+    
+    background-image: url(img/hero-min.png);   
+    background-size: cover;
+    background-position: center;   
+    background-attachment: fixed;
+   
+    
+    font-size: 25px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden; 
+    padding: 20px;
+    
+}
+
+
+/* ==========================================================================
+   Reusable Components
+   ========================================================================== */
+.row{
+    max-width: 1140px;   
+    margin: 0 auto;
+}
+
+.col{
+    margin: 0;
+}
+
+h1{
+    margin:0 auto .5em auto;
+    text-align: center;
+}
+
+
+h1 img{
+    width:700px;
+    height: auto;
+    margin:auto;
+}
+
+h2{
+    font-size: 120%;
+    text-align: left;    
+    background-image: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    padding: 0px 0 10px 0;    
+    border: 0;
+    text-transform: none;
+}
+
+section{   
+    max-width: 1140px;   
+    padding: 20px;
+    margin: auto;
+}
+
+.main{
+    padding: 30px;
+}
+.the-box-text{
+    padding: 1rem 1rem 1rem 1rem;
+    margin-top:20px;
+}
+ul{
+    padding-left: 3rem;
+}
+
+@media only screen and (max-width: 850px){
+    h1 img{
+         width:500px;
+    }
+    html body{ font-size: 20px; } 
+}
+
+@media only screen and (max-width: 600px){
+    h1 img{
+         width:400px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    h1 img{
+         width:200px;
+    }
+     html body{ font-size: 18px; } 
+}

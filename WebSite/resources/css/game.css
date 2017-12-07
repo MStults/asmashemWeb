@@ -1,0 +1,358 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix:after{
+    content:"";
+    display:table;
+    clear:both;
+}
+
+html
+body{
+    background-color: #e6dcff;
+    color: #442d65;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 25px;
+    text-rendering: optimizeLegibility;
+   
+}
+
+body{
+    background-image: linear-gradient(rgba(49, 16, 235, 0.65), rgba(167, 61, 53, 0.5)), url(img/bg-content.png);
+    background-position: center;      
+    background-attachment: fixed;
+}
+
+header{
+    color:#3b4d90;
+    background-image: linear-gradient(rgba(50, 34, 93, 0.57), rgba(224, 64, 52, 0.8)), url(img/bg-content.png);
+    background-position: center;      
+    background-attachment: fixed;
+    z-index: 1;
+}
+
+h1{
+    margin: 0, auto;
+    padding: 0;
+    position: absolute;
+    top: -500px
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: gold;
+    color: #000;
+    padding: 0.2em 0;
+    padding-left: 1em;
+    display: none;
+}
+
+h2{     
+    letter-spacing: 2px;
+    word-spacing: 0px;
+    font-size: 120%; 
+    font-weight: normal;
+    margin-top: 0;
+}
+
+
+.the-box-text{
+    background-image: radial-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.7));
+    padding: 20px;
+    border-radius: 10px;   
+    line-height: 145%;
+    text-shadow: 0 0 2px #fff;
+  
+}
+
+/*-----------------------------------------*/
+/* MAIN DIV  */
+/*-----------------------------------------*/
+#main{        
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    position: relative;   
+    height: 100vh; 
+    justify-content: center;
+    margin-bottom: 20px;
+        
+}
+
+/*-----------------------------------------*/
+/* GAME DIVS  */
+/*-----------------------------------------*/
+#game-div{
+    display: none;  
+    padding:0;    
+}
+
+#game-div canvas{    
+    box-shadow: 0 0 50px rgb(255, 255, 255);
+    border: 1px solid #ffffff; 
+    border-radius: 8px;
+}
+#game-div>div{  
+    position: relative;   
+}
+
+/*-----------------------------------------*/
+/* AD BANNER  */
+/*-----------------------------------------*/
+
+#ad-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    width:100%;
+    justify-content:center;
+    min-height: 100vh;   
+}
+
+.ad-box{
+    width: 90%;
+    padding: 20px;
+    color: #1a1a1a;
+    background-image: url(img/bg-content.png);
+    padding: 1.2em;  
+    line-height: 145%;
+    background-position: center;      
+    background-attachment: fixed;
+    border-radius: 10px;   
+    max-width: 800px;  
+    min-width: 250px;
+}
+
+#ad-section p{   
+    line-height: 1.5
+}
+
+.ad-banner{    
+    height: 90px;
+    width: 728px;    
+    background-color: #a96aff;
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+#ad-block>div{
+    padding: 20px;      
+    background-image: radial-gradient(closest-side at 50% 50%,rgb(87, 68, 167),rgba(3, 0, 77, 0.55));
+    border: 4px solid #000;       
+}
+#ad-block>div>{
+    margin: auto;
+    width:336px;
+    height:280px
+}
+
+#back-btn{       
+    width:200px;   
+    margin: 20px auto 0 auto;
+    padding: 0;
+    border: 3px solid #442d65;
+    
+}
+
+#back-btn:hover{
+    -webkit-box-shadow: 0px 0px 15px 5px rgba(255, 255, 255, .75);
+    -moz-box-shadow: 0px 0px 15px 5px rgba(255, 255, 255, .75);
+    box-shadow: 0px 0px 15px 5px rgba(255, 255, 255, .75);
+    border-color: #fff61f;
+    color: #8852d4;
+}
+
+#back-btn>button{
+    width: 100%;
+    background-color: transparent;
+    border: 0;   
+    height: 50px;
+    font-size: 80%;
+    letter-spacing: 2px;
+}
+
+/*-----------------------------------------*/
+/* LOADING  */
+/*-----------------------------------------*/
+#loading-div{
+    z-index: 1;  
+    width: 100%;
+}
+
+.loading-ani{
+    margin: 0 auto;
+    width: 290px;
+    height: 184px;
+    background: url('img/loading/loading_strip60-min.png') left center;
+    animation: play-loading 2s steps(60) infinite;
+    background-size: cover;
+}
+
+@keyframes play-loading {
+   100% { background-position: -17400px; }
+}
+
+@keyframes lightSpeedOut {
+    from { opacity: 1; }
+    
+    50%{  transform: translateY(20vh); }
+
+    to {
+        transform: translateY(-100vh);
+        visibility: hidden;
+    }
+}
+
+.lightSpeedOut { 
+    animation-delay: 0.5s;
+    animation-name: lightSpeedOut;
+    animation-duration: 1.2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: 1;
+    animation-fill-mode:forwards;
+}
+
+@keyframes slideInUp {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    opacity: 0;    
+    
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+      visibility: visible;
+  }
+}
+
+.slideInUp {
+    visibility: hidden;
+    animation-delay: 0.5s;
+    animation-name: slideInUp;
+    animation-duration: 1.2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: 1;
+    animation-fill-mode:forwards;
+}
+
+
+/*-----------------------------------------*/
+/* BRAG  */
+/*-----------------------------------------*/
+
+#fb-btn{   
+    width: 1.2em;
+    height:1.2em;  
+    
+    font-size: 2em;
+    padding: 0 2px 0 0;
+    border-radius: 50%; 
+    border: 4px solid #fff;   
+    display: none;
+    left: 50%;
+    top: 87%;    
+    position: absolute;
+    transform: translate(-50%, -50%); 
+    background-color: #385797;
+    color: #fff;    
+}
+
+#fb-btn:hover{
+    box-shadow: 0px 0px 5px 2px #fff;
+}
+
+#brag-btn{     
+    height: 70px;
+    width: 320px;  
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(img/brag1.png);
+    transform: translate(0, -150px);
+    display: none;
+}
+
+#brag-btn:hover{
+     background-image: url(img/brag2.png);
+}
+
+#brag-btn>button{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+    color: transparent;
+}
+
+#mobile-btns img{
+    height: 60px;
+    width: auto;
+    margin: 20px auto;
+    cursor: pointer;
+    display: block;
+}
+
+/*-----------------------------------------*/
+/* SCREENS  */
+/*-----------------------------------------*/
+
+@media only screen and (max-width: 910px){
+    .ad-banner{        
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 512px){   
+    #main{        
+        align-items: flex-start;   
+    }
+    
+   #game-div canvas{ 
+       border: 0; 
+       box-shadow: none;
+       border-radius: 0;
+    }
+    
+    #fb-btn{   
+        font-size: 1.7em;
+    }
+}
+
+
+@media only screen and (max-width: 430px){
+    #brag-btn{      
+        transform: translate(0, -140px);
+        height: 60px;
+        width: 250px;  
+    }
+    
+     #fb-btn{   
+         font-size: 1.7em;
+        
+    }
+}
+
+@media only screen and (max-width: 300px){
+  
+    .ad-banner{    
+        height: auto;
+        width: 100%;    
+    }
+    
+    #fb-btn{   
+         font-size: 1.2em;
+         top: 87%;    
+    }
+}
+

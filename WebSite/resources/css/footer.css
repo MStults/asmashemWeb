@@ -1,0 +1,94 @@
+
+/*-----------------------------------------*/
+/* FOOOTER  */
+/*-----------------------------------------*/
+footer{
+   
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.85)), url(img/bg-min.png);
+    background-size: cover;
+    background-position: center;      
+    background-attachment: fixed;
+    padding: 30px;
+    font-size:100%;
+    border-top: 1px solid #adb9bd; 
+}
+
+.footer-nav{
+    list-style: none;  
+    text-align: center;
+    
+}
+
+.social-icons{
+    list-style: none;
+    text-align: center;
+    color:#adb9bd;
+}
+
+.footer-nav li,
+.social-icons li{
+    display: inline-block;
+    margin: 20px;
+    
+}
+
+.footer-nav li a:link,
+li:last-child,
+.social-icons li:last-child{
+    margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-icons li a:link,
+.social-icons li a:visited{
+    text-decoration: none;
+    border: 0;
+    color: #888;    
+    -webkit-transition: color 0.2s;    
+    transition: color 0.2s;
+}
+
+
+.footer-nav li a:hover,
+.footer-nav li a:active{   
+    color: #ddd;    
+}
+
+.social-icons li a:link,
+.social-icons li a:visited{      
+    font-size: 180%;
+}
+
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-googleplus,
+.ion-social-instagram{
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.ion-social-facebook:hover{
+    color: #3b5998;
+}
+.ion-social-twitter:hover{
+    color: #00aced;
+}
+.ion-social-googleplus:hover{
+    color: #dd4b39;
+}
+.ion-social-instagram:hover{
+    color: #517faf;
+}
+
+footer p{
+    color: #888;
+    text-align: center;
+    font-size: 80%;  
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.Atom-Smashem{
+     color: #fdea00;
+}

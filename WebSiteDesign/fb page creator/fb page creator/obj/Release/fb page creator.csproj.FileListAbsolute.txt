@@ -6,3 +6,12 @@ E:\OneDrive\Dev\AtomSmashem\WebSiteDesign\fb page creator\fb page creator\obj\Re
 E:\OneDrive\Dev\AtomSmashem\WebSiteDesign\fb page creator\fb page creator\obj\Release\fb page creator.csproj.GenerateResource.Cache
 E:\OneDrive\Dev\AtomSmashem\WebSiteDesign\fb page creator\fb page creator\obj\Release\fb page creator.exe
 E:\OneDrive\Dev\AtomSmashem\WebSiteDesign\fb page creator\fb page creator\obj\Release\fb page creator.pdb
+D:\Dev\Atomsmashem\asmashemWeb\WebSiteDesign\fb page creator\fb page creator\bin\Release\fb page creator.exe.config
+D:\Dev\Atomsmashem\asmashemWeb\WebSiteDesign\fb page creator\fb page creator\obj\Release\fb page creator.exe
+D:\Dev\Atomsmashem\asmashemWeb\WebSiteDesign\fb page creator\fb page creator\obj\Release\fb page creator.pdb
+D:\Dev\Atomsmashem\asmashemWeb\WebSiteDesign\fb page creator\fb page creator\bin\Release\fb page creator.exe
+D:\Dev\Atomsmashem\asmashemWeb\WebSiteDesign\fb page creator\fb page creator\bin\Release\fb page creator.pdb
+D:\Dev\Atomsmashem\asmashemWeb\WebSiteDesign\fb page creator\fb page creator\obj\Release\fb page creator.csprojResolveAssemblyReference.cache
+D:\Dev\Atomsmashem\asmashemWeb\WebSiteDesign\fb page creator\fb page creator\obj\Release\fb_page_creator.Form1.resources
+D:\Dev\Atomsmashem\asmashemWeb\WebSiteDesign\fb page creator\fb page creator\obj\Release\fb_page_creator.Properties.Resources.resources
+D:\Dev\Atomsmashem\asmashemWeb\WebSiteDesign\fb page creator\fb page creator\obj\Release\fb page creator.csproj.GenerateResource.Cache

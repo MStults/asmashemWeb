@@ -62,8 +62,13 @@ namespace fb_page_creator
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            Save();
-           
+            if(Save())
+            {
+                var i = cmbBadges.SelectedIndex;
+                cmbBadges.Items.Clear();
+                cmbBadges.Items.AddRange(Badge.GetBadges());
+                LoadBadge(i);
+            }           
         }
 
         private bool Save()

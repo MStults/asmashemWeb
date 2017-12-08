@@ -7,26 +7,127 @@
   </badge>
   <badge>
     <name>anti</name>
-    <title>My Title</title>
-    <fb-descr>Facebook description</fb-descr>
-    <web-descr>Web description</web-descr>
+    <title>Antimattergen - Scrubbing Bubbles</title>
+    <fb-descr>Unleash 100 of these acetic atoms to gain this badge of honor. The scrubbing power of Antimattergen is enough to destroy all the atoms on the board. Creeping through the ranks this atom increase its range by consuming atoms that have a high amount of energy.  </fb-descr>
+    <web-descr>Unleash 100 of these acetic atoms to gain this badge of honor. The scrubbing power of Antimattergen is enough to destroy all the atoms on the board. Creeping through the ranks this atom increase its range by consuming atoms that have a high amount of energy.  </web-descr>
   </badge>
   <badge>
     <name>mine_good</name>
-    <title>Way to explode things</title>
-    <fb-descr>Mr Mine !!</fb-descr>
-    <web-descr>Mr Mine !!</web-descr>
+    <title>Master Exploder</title>
+    <fb-descr>Setting off a 100 or so Minesium atoms will earn you this achievement. Minesium atoms may not be what you expect. Yes, they explode but the explosion does not destroy… it transforms. This award is for those who understand that and know how to use. </fb-descr>
+    <web-descr>Setting off a 100 or so Minesium atoms will earn you this achievement. Minesium atoms may not be what you expect. Yes, they explode but the explosion does not destroy… it transforms. This award is for those who understand that and know how to use. </web-descr>
   </badge>
   <badge>
-    <name>mine</name>
-    <title>Not as good as the others</title>
-    <fb-descr>Not as good as the others</fb-descr>
-    <web-descr>Not as good as the others</web-descr>
+    <name>missile_good</name>
+    <title>Missile Commander in-chief</title>
+    <fb-descr>Triggering 150 or more Missilenium atoms over a lifetime of playing Atomsmashem will earn the respect of any Atomsmashem player and it will also earn you this achievement. If this is you then you can count yourself among the best.</fb-descr>
+    <web-descr>Triggering 150 or more Missilenium atoms over a lifetime of playing Atomsmashem will earn the respect of any Atomsmashem player and it will also earn you this achievement. If this is you then you can count yourself among the best.</web-descr>
   </badge>
   <badge>
-    <name>missle_good</name>
-    <title>Good job missling </title>
-    <fb-descr>Good job missling </fb-descr>
-    <web-descr>Good job missling </web-descr>
+    <name>chain_laser</name>
+    <title>Lasergen Chain - Optical maser</title>
+    <fb-descr>To earn this achievement you must prove your proficiency in molecular spectroscopy by creating a lifetime total of 25 or more Lasergen Chains. Lasergen Chains can be devastating destroying all atom along a linear path.</fb-descr>
+    <web-descr>To earn this achievement you must prove your proficiency in molecular spectroscopy by creating a lifetime total of 25 or more Lasergen Chains. Lasergen Chains can be devastating destroying all atom along a linear path.</web-descr>
+  </badge>
+  <badge>
+    <name>chain_shotgun</name>
+    <title>Shotgunium Chain - Fish in a barrel</title>
+    <fb-descr>50 or more Shotgunium Chains.
+
+Shotgunium is a powerful atom that contains a lot of explosive potential and when this potential is unleashed it will cause any other Shotgunium to exploded causing a chain reaction which will destroy the majority of atoms in not all of them. </fb-descr>
+    <web-descr>A lifetime total of 50 or more Shotgunium Chains will earn you this prestigious achievement.&lt;/p&gt;&lt;p&gt;
+
+Shotgunium is a powerful atom that contains a lot of explosive potential and when this potential is unleashed it will cause any other Shotgunium to exploded causing a chain reaction which will destroy the majority of atoms in not all of them. &lt;/p&gt;
+</web-descr>
+  </badge>
+  <badge>
+    <name>streak1</name>
+    <title>Winning Streak 1 - 5 Perfect Levels in a row</title>
+    <fb-descr>A person that is a stickler for detail and has a need for mastery can achieve this impressive achievement by completing five perfect levels in row. </fb-descr>
+    <web-descr>A person that is a stickler for detail and has a need for mastery can achieve this impressive achievement by completing five perfect levels in row. </web-descr>
+  </badge>
+  <badge>
+    <name>streak2</name>
+    <title>Winning Streak 2 - 10 Perfect Levels in a row</title>
+    <fb-descr>This achievement is for those who strive for perfection. Not many have the skill need to attain such a feat. Most just try to get through as many levels as they can as fast as the can. If you can achieve this award you will have secured your place among the best players of Atomsmashem. </fb-descr>
+    <web-descr>This achievement is for those who strive for perfection. Not many have the skill need to attain such a feat. Most just try to get through as many levels as they can as fast as the can. If you can achieve this award you will have secured your place among the best players of Atomsmashem. </web-descr>
+  </badge>
+  <badge>
+    <name>streak3</name>
+    <title>Winning Streak 3 - 20 Perfect Levels in a row</title>
+    <fb-descr>Domination, complete and utter domination will earn you this achievement. This award is only for the elite players and should not even be attempted by those who have not the intellect or the will to pursue such a lofty endeavor.  </fb-descr>
+    <web-descr>Domination, complete and utter domination will earn you this achievement. This award is only for the elite players and should not even be attempted by those who have not the intellect or the will to pursue such a lofty endeavor.  </web-descr>
+  </badge>
+  <badge>
+    <name>missile1</name>
+    <title>Missle Commander</title>
+    <fb-descr>Anyone who can create and trigger 100 or more Missilenium atoms over a lifetime of playing Atomsmashem can brag about earning this achievement. Missilenium can easily turn the tide in a level from frustrating to leisurely.</fb-descr>
+    <web-descr>Anyone who can create and trigger 100 or more Missilenium atoms over a lifetime of playing Atomsmashem can brag about earning this achievement. Missilenium can easily turn the tide in a level from frustrating to leisurely.</web-descr>
+  </badge>
+  <badge>
+    <name>dop</name>
+    <title>Doppelgangorgen - Look-alike</title>
+    <fb-descr>Triggering 100 of these atoms over a lifetime of play will get you this achievement. Doppelgangorgen has the ability to change into whatever triggered it. This if used correctly can help you complete challenges and complete the hardest levels with ease.  </fb-descr>
+    <web-descr>Triggering 100 of these atoms over a lifetime of play will get you this achievement. Doppelgangorgen has the ability to change into whatever triggered it. This if used correctly can help you complete challenges and complete the hardest levels with ease.  </web-descr>
+  </badge>
+  <badge>
+    <name>finish</name>
+    <title>Completed - Wisdom Attained!</title>
+    <fb-descr>Conquering Atomsmashem is no easy feat, with over 300 levels and a difficulty that seems almost unfair at times for a matching game this achievement will earn you the respect of any hardcore gamer.  </fb-descr>
+    <web-descr>Conquering Atomsmashem is no easy feat, with over 300 levels and a difficulty that seems almost unfair at times for a matching game this achievement will earn you the respect of any hardcore gamer.  </web-descr>
+  </badge>
+  <badge>
+    <name>iron</name>
+    <title>Iron Worker</title>
+    <fb-descr>Destroying 100 iron atom over a lifetime of playing Atomsmashem is tough. It only be done by using the energy contained in one of the isotopes. This achievement honors that feat and those who earn it should feel proud. </fb-descr>
+    <web-descr>Destroying 100 iron atom over a lifetime of playing Atomsmashem is tough. It only be done by using the energy contained in one of the isotopes. This achievement honors that feat and those who earn it should feel proud. </web-descr>
+  </badge>
+  <badge>
+    <name>shot1</name>
+    <title>Old Reliable</title>
+    <fb-descr>Some say Shotgunium is the workhorse of Atomsmashem. Setting off 80 of these atom will reward you with this achievement. Use these atoms is a basic skill needed to finish a level quickly.</fb-descr>
+    <web-descr>Some say Shotgunium is the workhorse of Atomsmashem. Setting off 80 of these atom will reward you with this achievement. Use these atoms is a basic skill needed to finish a level quickly.</web-descr>
+  </badge>
+  <badge>
+    <name>shot2</name>
+    <title>Sure Shot</title>
+    <fb-descr>To get this achievement you are definitely not slacking in fact some might even call it macking. That is if macking is triggering Shotgunium 200 times or more!</fb-descr>
+    <web-descr>To get this achievement you are definitely not slacking in fact some might even call it macking. That is if macking is triggering Shotgunium 200 times or more!</web-descr>
+  </badge>
+  <badge>
+    <name>one</name>
+    <title>Mikeium - Take it too far</title>
+    <fb-descr>Creating Doppelgangorgen from Mikeium is a lot of fun and can help you make quick work of a level. Do this 50 times or more and you get this impressive achievement.</fb-descr>
+    <web-descr>Creating Doppelgangorgen from Mikeium is a lot of fun and can help you make quick work of a level. Do this 50 times or more and you get this impressive achievement.</web-descr>
+  </badge>
+  <badge>
+    <name>two</name>
+    <title>Jasonium - Big Eater</title>
+    <fb-descr>Jasonium is the atom needed to create Shotgunium and if this is your weapon of choice then you will earn this achievement after creating your 50th Shotgunium!</fb-descr>
+    <web-descr>Jasonium is the atom needed to create Shotgunium and if this is your weapon of choice then you will earn this achievement after creating your 50th Shotgunium!</web-descr>
+  </badge>
+  <badge>
+    <name>three</name>
+    <title>Russium - 20 Years</title>
+    <fb-descr>Playing Atomsmashem is fun and you can spend a lot of time doing it. During that time you will probably convert Russium into Missilenium countless times when you have done this 50 times or more you will have earned this achievement.</fb-descr>
+    <web-descr>Playing Atomsmashem is fun and you can spend a lot of time doing it. During that time you will probably convert Russium into Missilenium countless times when you have done this 50 times or more you will have earned this achievement.</web-descr>
+  </badge>
+  <badge>
+    <name>four</name>
+    <title>Claytonium - Stars Stars!</title>
+    <fb-descr>Sometimes knowing the answer before anyone else can seem like the most important thing in the world and there are other time when you just want to play Atomsmashem and have fun converting Claytonium into Lasergen. The 50th time you convert Claytonium into Lasergen you will receive this achievement.</fb-descr>
+    <web-descr>Sometimes knowing the answer before anyone else can seem like the most important thing in the world and there are other time when you just want to play Atomsmashem and have fun converting Claytonium into Lasergen. The 50th time you convert Claytonium into Lasergen you will receive this achievement.</web-descr>
+  </badge>
+  <badge>
+    <name>five</name>
+    <title>Joedrogen - Gross...</title>
+    <fb-descr>Yes, dealing with Joedrogen can be gross and converting over to Antimattergen can be downright disgusting but it always a good time. If you have the stomach enough to do this 50 times or more you will be rewarded with this achievement.</fb-descr>
+    <web-descr>Yes, dealing with Joedrogen can be gross and converting over to Antimattergen can be downright disgusting but it always a good time. If you have the stomach enough to do this 50 times or more you will be rewarded with this achievement.</web-descr>
+  </badge>
+  <badge>
+    <name>six</name>
+    <title>Danthemanium - Bird Bones</title>
+    <fb-descr>People like to run through life and those who do it quickly have bird bones. But sometime you need a break and when that happens sit down and play Atomsmashem and when you do focus on converting Danthemanium into Minesium after doing this 50 times you can cross this achievement off your checklist.</fb-descr>
+    <web-descr>People like to run through life and those who do it quickly have bird bones. But sometime you need a break and when that happens sit down and play Atomsmashem and when you do focus on converting Danthemanium into Minesium after doing this 50 times you can cross this achievement off your checklist.</web-descr>
   </badge>
 </badges>

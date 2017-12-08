@@ -91,6 +91,7 @@
             this.txtFBDescr.Location = new System.Drawing.Point(56, 261);
             this.txtFBDescr.Multiline = true;
             this.txtFBDescr.Name = "txtFBDescr";
+            this.txtFBDescr.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.txtFBDescr.Size = new System.Drawing.Size(759, 100);
             this.txtFBDescr.TabIndex = 5;
             // 
@@ -108,6 +109,7 @@
             this.txtWebDescr.Location = new System.Drawing.Point(56, 420);
             this.txtWebDescr.Multiline = true;
             this.txtWebDescr.Name = "txtWebDescr";
+            this.txtWebDescr.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.txtWebDescr.Size = new System.Drawing.Size(759, 123);
             this.txtWebDescr.TabIndex = 7;
             // 

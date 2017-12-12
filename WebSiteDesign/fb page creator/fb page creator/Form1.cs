@@ -88,5 +88,13 @@ namespace fb_page_creator
                 return true;
             }
         }
+
+        private void btnGenerateSingle_Click(object sender, EventArgs e)
+        {
+            if (Save())
+            {
+                current.Generate();
+            }
+        }
     }
 }

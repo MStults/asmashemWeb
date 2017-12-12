@@ -41,6 +41,7 @@
             this.btnClose = new System.Windows.Forms.Button();
             this.btnNew = new System.Windows.Forms.Button();
             this.btnSave = new System.Windows.Forms.Button();
+            this.btnGenerateSingle = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // cmbBadges
@@ -154,19 +155,30 @@
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(591, 560);
+            this.btnSave.Location = new System.Drawing.Point(665, 560);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(224, 38);
+            this.btnSave.Size = new System.Drawing.Size(150, 38);
             this.btnSave.TabIndex = 12;
             this.btnSave.Text = "&Save";
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
+            // 
+            // btnGenerateSingle
+            // 
+            this.btnGenerateSingle.Location = new System.Drawing.Point(500, 560);
+            this.btnGenerateSingle.Name = "btnGenerateSingle";
+            this.btnGenerateSingle.Size = new System.Drawing.Size(157, 38);
+            this.btnGenerateSingle.TabIndex = 13;
+            this.btnGenerateSingle.Text = "Generate";
+            this.btnGenerateSingle.UseVisualStyleBackColor = true;
+            this.btnGenerateSingle.Click += new System.EventHandler(this.btnGenerateSingle_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(865, 705);
+            this.Controls.Add(this.btnGenerateSingle);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.btnNew);
             this.Controls.Add(this.btnClose);
@@ -207,6 +219,7 @@
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Button btnNew;
         private System.Windows.Forms.Button btnSave;
+        private System.Windows.Forms.Button btnGenerateSingle;
     }
 }
 

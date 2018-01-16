@@ -22,7 +22,7 @@ h1 img{
 /*-----------------------------------------*/
 header{   
     background-color: #3c347f;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/hero-min.png);
+    background-image: url(img/hero-min.png);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -37,7 +37,7 @@ header{
     width: 100vw;
     background-size: cover;
     background-position: center;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.74), rgba(220, 186, 255, 0.35)), url(img/hero-min.png);
+    background-image: linear-gradient(rgb(255, 255, 255), rgba(220, 186, 255, 0.76)), url(img/hero-min.png);
     background-attachment: fixed;
 }
 
@@ -314,8 +314,7 @@ header{
 .full-flex{
     display: flex;
     align-items: center;
-    justify-content: center;  
-    padding: 20px 0;    
+    justify-content: center;      
 }
 
 .full-flex>div{

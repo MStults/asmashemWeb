@@ -103,6 +103,9 @@ namespace fb_page_creator
             html = html.Replace("{TITLE}", Title);
             html = html.Replace("{FB_DESCR}", FBDescr);
             html = html.Replace("{WEB_DESCR}", WebDescr);
+
+            var id = $"{DateTime.Now.Year}{DateTime.Now.DayOfYear}{DateTime.Now.Hour}{DateTime.Now.Minute}{DateTime.Now.Second}";
+            html = html.Replace("{TS}", id);
             File.WriteAllText(Name + ".html", html);
         }
     }

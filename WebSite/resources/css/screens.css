@@ -96,6 +96,10 @@
     
     .section-about>div>h2>img{ height: 40px; width: auto; }
     
+    .main-btn img{
+        height: 50px;
+    }
+    
 }
 
 /* SMALL PHONES 0 to 480 */
@@ -114,4 +118,8 @@
     }
     
      .section-about>div>h2>img{ height: 30px; width: auto; }
+    
+    .main-btn img{
+        height: 45px;
+    }
 }

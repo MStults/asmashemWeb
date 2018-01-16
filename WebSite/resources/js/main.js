@@ -13,6 +13,14 @@ window.asm.game_loader = function (_graphics, _width, _height, _total, _current,
 
 (function(){
     "use strict"; 
+        
+    $('body').on("mousewheel", function () {
+            event.preventDefault();
+            var wd = event.wheelDelta;
+            var csp = window.pageYOffset;
+            window.scrollTo(0, csp - wd);
+        });
+  
     
     $(".play-btn").click(function(){
         try{$("#snd_spark")[0].play(); } catch(e) {}        

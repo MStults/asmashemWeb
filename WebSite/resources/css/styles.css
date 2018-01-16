@@ -30,6 +30,34 @@ header{
     animation: play-img 0.5s 1;
 }
 
+.main-btn-row{   
+    position: absolute;
+    bottom: 0;  
+    right: 0;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.74), rgba(220, 186, 255, 0.35)), url(img/hero-min.png);
+    background-attachment: fixed;
+}
+
+.main-btn 
+{
+   
+}
+.main-btn a{ 
+    float:right;
+    padding: 0 10px;
+}
+
+.main-btn img{
+    height: 60px;
+    width: auto;
+    margin: 10px auto;
+    cursor: pointer;
+    display: block;
+}
+
 @keyframes play-img {
     0%   { opacity: 0; }
   100% { opacity: 1; }
@@ -189,11 +217,13 @@ header{
     vertical-align: bottom;
 }
 
+
+
 .section-about{
-      background-image: url(img/hero-min.png);   
-    background-size: cover;
-    background-position: center;   
-    background-attachment: fixed;
+    background-image: url(img/hero-min.png);   
+    background-size: cover;  
+    background-position: center;  
+    background-attachment: fixed; 
 }
 
 /*-----------------------------------------*/
@@ -276,7 +306,7 @@ header{
 .btn-app img{
     height: 60px;
     width: auto;
-    margin: 20px auto;
+    margin: 10px auto;
     cursor: pointer;
     display: block;
 }

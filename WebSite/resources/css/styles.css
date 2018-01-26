@@ -58,6 +58,21 @@ header{
     display: block;
 }
 
+.btn-fb div{  
+    font-size: 60px;
+    color: white;  
+    height: 60px;
+    width: 60px;
+    background-color: #2d5fc6;
+    margin: 10px auto;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+}
+
+
+
 @keyframes play-img {
     0%   { opacity: 0; }
   100% { opacity: 1; }
@@ -362,3 +377,4 @@ header{
     font-style: italic;
     display: block;
 }
+
